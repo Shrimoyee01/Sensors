@@ -1,7 +1,6 @@
 cmake_minimum_required(VERSION 3.0.1)
-project(a3_skeleton)
+project(sensors_project2_fetchrobotgrasping)
 
-# This pacakge depends on a5_setup, beacuse it uses a service declared there
 find_package(catkin REQUIRED COMPONENTS
   roscpp
   sensor_msgs
