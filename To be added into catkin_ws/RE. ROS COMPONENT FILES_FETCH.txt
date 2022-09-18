@@ -1,0 +1,8 @@
+﻿https://github.com/fetchrobotics/fetch_ros
+
+Needs to be linked into catkin_ws
+
+1. Open terminal
+2. Go into catkin_ws/src folder using directory
+3. Input git clone git@github.com:fetchrobotics/fetch_ros.git
+4. Reset qt creator if on from previous session

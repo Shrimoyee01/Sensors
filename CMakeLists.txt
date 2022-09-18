@@ -63,9 +63,9 @@ target_link_libraries(${PROJECT_NAME}_node ${catkin_LIBRARIES})
 ## Testing ##
 #############
 ## Add gtest based cpp test target and link libraries
-catkin_add_gtest(${PROJECT_NAME}_test test/utest.cpp)
-if(TARGET ${PROJECT_NAME}_test)
-   target_link_libraries(${PROJECT_NAME}_test ${catkin_LIBRARIES} ${PROJECT_NAME}_laserprocessing )
-   message (STATUS " catkin_LIBRARIES ${catkin_LIBRARIES}")
-endif()
+#catkin_add_gtest(${PROJECT_NAME}_test test/utest.cpp)
+#if(TARGET ${PROJECT_NAME}_test)
+#   target_link_libraries(${PROJECT_NAME}_test ${catkin_LIBRARIES} ${PROJECT_NAME}_laserprocessing )
+#   message (STATUS " catkin_LIBRARIES ${catkin_LIBRARIES}")
+#endif()
 
