@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -std=c++11  -Wno-deprecated -Wdeprecated-declarations  -shared -Wl,-soname,libsensors_project2_fetchrobotgrasping_processes.so -o devel/lib/libsensors_project2_fetchrobotgrasping_processes.so CMakeFiles/sensors_project2_fetchrobotgrasping_processes.dir/gripper.cpp.o CMakeFiles/sensors_project2_fetchrobotgrasping_processes.dir/sensorprocessing.cpp.o 

@@ -50,17 +50,17 @@ include_directories(
 )
 
 ## Declare a C++ library
-add_library(${PROJECT_NAME} src/gripper.cpp src/sensorprocessing.cpp)
+add_library(${PROJECT_NAME}_processes gripper.cpp sensorprocessing.cpp)
 
 ## Declare a C++ executable
-add_executable(${PROJECT_NAME} src/main.cpp)
+add_executable(${PROJECT_NAME}_test main.cpp)
 
 # Add cmake target dependencies of the executable
 # This enforces generating messages before building these executables
-add_dependencies(${PROJECT_NAME} ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
+add_dependencies(${PROJECT_NAME}_test ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 
 # Specify libraries to link a library or executable target against
-target_link_libraries(${PROJECT_NAME} ${catkin_LIBRARIES})
+target_link_libraries(${PROJECT_NAME}_test ${catkin_LIBRARIES})
 
 #############
 ## Testing ##
