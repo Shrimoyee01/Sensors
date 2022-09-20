@@ -3,7 +3,8 @@ project(sensors_project2_fetchrobotgrasping)
 
 find_package(catkin REQUIRED COMPONENTS
   roscpp
-  sensor_msgs
+  grasping_msgs
+  std_msgs
   rosbag # Needed to rosbag manipulation
   roslib # Needed for ros::package::getPath
   pcl_conversions
@@ -12,10 +13,11 @@ find_package(catkin REQUIRED COMPONENTS
 
 ## System dependencies are found with CMake's conventions
 #find_package(Boost REQUIRED COMPONENTS system signals)
+find_package(Eigen3 REQUIRED)
 
-#set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-deprecated -Wdeprecated-declarations")
-#set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}")
-#message ( STATUS " CMake C++ FLAGS ${CMAKE_CXX_FLAGS}")
+set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wno-deprecated -Wdeprecated-declarations")
+set(CMAKE_CXX_FLAGS "-std=c++11 ${CMAKE_CXX_FLAGS}")
+message ( STATUS " CMake C++ FLAGS ${CMAKE_CXX_FLAGS}")
 
 ###################################
 ## catkin specific configuration ##
@@ -44,6 +46,7 @@ include_directories(
   include
   src
   ${catkin_INCLUDE_DIRS}
+  ${EIGEN3_INCLUDE_DIR}
 )
 
 ## Declare a C++ library

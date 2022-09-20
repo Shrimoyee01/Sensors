@@ -1,4 +1,13 @@
-#ifndef GRIPPER_H
-#define GRIPPER_H
+#ifndef SENSORPROCESSING_H
+#define SENSORPROCESSING_H
 
-#endif // GRIPPER_H
+class SensorProcessing
+{
+  //Constructor
+  SensorProcessing();
+
+  //Deconstructor
+  ~SensorProcessing();
+};
+
+#endif // SENSORPROCESSING_H
