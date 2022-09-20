@@ -1,6 +1,7 @@
 #include "gripper.h"
 
-BasicGraspingPerception::BasicGraspingPerception((ros::NodeHandle n) : nh_(n), debug_(false), find_objects_(false))
+BasicGraspingPerception::BasicGraspingPerception(ros::NodeHandle n) :
+   nh_(n), debug_(false), find_objects_(false)
 {
   // use_debug: enable/disable output of a cloud containing object points
   nh_.getParam("use_debug", debug_);
@@ -129,3 +130,5 @@ void BasicGraspingPerception::executeCallback(const grasping_msgs::FindGraspable
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+

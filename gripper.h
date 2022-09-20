@@ -1,10 +1,10 @@
 #ifndef GRIPPER_H
 #define GRIPPER_H
 
-#include <iostream>
-#include <vector>
-#include <stdlib.h>
-#include <string>
+//#include <iostream>
+//#include <vector>
+//#include <stdlib.h>
+//#include <string>
 
 #include <ros/ros.h>
 #include <ros/package.h>
@@ -36,7 +36,7 @@ class BasicGraspingPerception
   typedef actionlib::SimpleActionServer<grasping_msgs::FindGraspableObjectsAction> server_t;
 
 public:
-  BasicGraspingPerception((ros::NodeHandle n) : nh_(n), debug_(false), find_objects_(false));
+  BasicGraspingPerception(ros::NodeHandle n);
 
 private:
   void cloudCallback(const pcl::PointCloud<pcl::PointXYZRGB>::ConstPtr& cloud);

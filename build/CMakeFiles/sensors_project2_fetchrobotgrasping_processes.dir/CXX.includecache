@@ -11,14 +11,6 @@ gripper.h
 /home/student/Sensors/gripper.h
 
 /home/student/Sensors/gripper.h
-iostream
--
-vector
--
-stdlib.h
--
-string
--
 ros/ros.h
 -
 ros/package.h
