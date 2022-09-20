@@ -6,3 +6,8 @@ Needs to be linked into catkin_ws
 2. Go into catkin_ws/src folder using directory
 3. Input git clone git@github.com:fetchrobotics/fetch_ros.git
 4. Reset qt creator if on from previous session
+
+
+Hopefully these are allowed as they are from a private repo but are included in the fetch projects
+git clone git@github.com:mikeferguson/grasping_msgs.git
+git clone git@github.com:mikeferguson/simple_grasping.git
