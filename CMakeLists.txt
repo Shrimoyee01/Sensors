@@ -47,7 +47,7 @@ include_directories(
 )
 
 ## Declare a C++ library
-add_library(${PROJECT_NAME} src/gripper.cpp)
+add_library(${PROJECT_NAME} src/gripper.cpp src/sensorprocessing.cpp)
 
 ## Declare a C++ executable
 add_executable(${PROJECT_NAME} src/main.cpp)
