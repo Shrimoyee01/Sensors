@@ -1,8 +1,0 @@
-prefix=/usr/local
-
-Name: sensors_project2_fetchrobotgrasping
-Description: Description of sensors_project2_fetchrobotgrasping
-Version: 0.0.1
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

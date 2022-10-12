@@ -1,0 +1,8 @@
+prefix=/home/student/catkin_ws/src/Sensors/test/devel
+
+Name: 41014project2022
+Description: Description of 41014project2022
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
