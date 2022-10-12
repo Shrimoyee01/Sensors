@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /home/student/catkin_ws/src/Sensors/test
 CMakeFiles/Sensors.dir/all:
 	$(MAKE) -f CMakeFiles/Sensors.dir/build.make CMakeFiles/Sensors.dir/depend
 	$(MAKE) -f CMakeFiles/Sensors.dir/build.make CMakeFiles/Sensors.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/catkin_ws/src/Sensors/test/CMakeFiles --progress-num=1,2 "Built target Sensors"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/catkin_ws/src/Sensors/test/CMakeFiles --progress-num=4,5 "Built target Sensors"
 .PHONY : CMakeFiles/Sensors.dir/all
 
 # Include target in all.
@@ -893,6 +893,43 @@ CMakeFiles/topic_tools_generate_messages_cpp.dir/clean:
 
 # clean rule for target.
 clean: CMakeFiles/topic_tools_generate_messages_cpp.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/41014project2022_fetch.dir
+
+# All Build rule for target.
+CMakeFiles/41014project2022_fetch.dir/all:
+	$(MAKE) -f CMakeFiles/41014project2022_fetch.dir/build.make CMakeFiles/41014project2022_fetch.dir/depend
+	$(MAKE) -f CMakeFiles/41014project2022_fetch.dir/build.make CMakeFiles/41014project2022_fetch.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/catkin_ws/src/Sensors/test/CMakeFiles --progress-num=1,2,3 "Built target 41014project2022_fetch"
+.PHONY : CMakeFiles/41014project2022_fetch.dir/all
+
+# Include target in all.
+all: CMakeFiles/41014project2022_fetch.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/41014project2022_fetch.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/catkin_ws/src/Sensors/test/CMakeFiles 3
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/41014project2022_fetch.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/student/catkin_ws/src/Sensors/test/CMakeFiles 0
+.PHONY : CMakeFiles/41014project2022_fetch.dir/rule
+
+# Convenience name for target.
+41014project2022_fetch: CMakeFiles/41014project2022_fetch.dir/rule
+
+.PHONY : 41014project2022_fetch
+
+# clean rule for target.
+CMakeFiles/41014project2022_fetch.dir/clean:
+	$(MAKE) -f CMakeFiles/41014project2022_fetch.dir/build.make CMakeFiles/41014project2022_fetch.dir/clean
+.PHONY : CMakeFiles/41014project2022_fetch.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/41014project2022_fetch.dir/clean
 
 .PHONY : clean
 
@@ -3917,7 +3954,7 @@ gtest/googlemock/preinstall: gtest/googlemock/gtest/preinstall
 gtest/googlemock/CMakeFiles/gmock_main.dir/all:
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock_main.dir/build.make gtest/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/catkin_ws/src/Sensors/test/CMakeFiles --progress-num=6,7,8,9 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/catkin_ws/src/Sensors/test/CMakeFiles --progress-num=9,10,11,12 "Built target gmock_main"
 .PHONY : gtest/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -3949,7 +3986,7 @@ clean: gtest/googlemock/CMakeFiles/gmock_main.dir/clean
 gtest/googlemock/CMakeFiles/gmock.dir/all:
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) -f gtest/googlemock/CMakeFiles/gmock.dir/build.make gtest/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/catkin_ws/src/Sensors/test/CMakeFiles --progress-num=3,4,5 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/catkin_ws/src/Sensors/test/CMakeFiles --progress-num=6,7,8 "Built target gmock"
 .PHONY : gtest/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4000,7 +4037,7 @@ gtest/googlemock/gtest/preinstall:
 gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all: gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/catkin_ws/src/Sensors/test/CMakeFiles --progress-num=12,13 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/catkin_ws/src/Sensors/test/CMakeFiles --progress-num=15,16 "Built target gtest_main"
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
@@ -4032,7 +4069,7 @@ clean: gtest/googlemock/gtest/CMakeFiles/gtest_main.dir/clean
 gtest/googlemock/gtest/CMakeFiles/gtest.dir/all:
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/depend
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/catkin_ws/src/Sensors/test/CMakeFiles --progress-num=10,11 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/student/catkin_ws/src/Sensors/test/CMakeFiles --progress-num=13,14 "Built target gtest"
 .PHONY : gtest/googlemock/gtest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.

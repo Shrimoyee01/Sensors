@@ -29,6 +29,7 @@
 /home/student/catkin_ws/src/Sensors/test/CMakeFiles/topic_tools_generate_messages_lisp.dir
 /home/student/catkin_ws/src/Sensors/test/CMakeFiles/topic_tools_generate_messages_eus.dir
 /home/student/catkin_ws/src/Sensors/test/CMakeFiles/topic_tools_generate_messages_cpp.dir
+/home/student/catkin_ws/src/Sensors/test/CMakeFiles/41014project2022_fetch.dir
 /home/student/catkin_ws/src/Sensors/test/CMakeFiles/std_srvs_generate_messages_py.dir
 /home/student/catkin_ws/src/Sensors/test/CMakeFiles/geometry_msgs_generate_messages_py.dir
 /home/student/catkin_ws/src/Sensors/test/CMakeFiles/geometry_msgs_generate_messages_lisp.dir

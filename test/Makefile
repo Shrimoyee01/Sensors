@@ -506,6 +506,19 @@ topic_tools_generate_messages_cpp/fast:
 .PHONY : topic_tools_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named 41014project2022_fetch
+
+# Build rule for target.
+41014project2022_fetch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 41014project2022_fetch
+.PHONY : 41014project2022_fetch
+
+# fast build rule for target.
+41014project2022_fetch/fast:
+	$(MAKE) -f CMakeFiles/41014project2022_fetch.dir/build.make CMakeFiles/41014project2022_fetch.dir/build
+.PHONY : 41014project2022_fetch/fast
+
+#=============================================================================
 # Target rules for targets named std_srvs_generate_messages_py
 
 # Build rule for target.
@@ -1766,6 +1779,33 @@ gtest/fast:
 	$(MAKE) -f gtest/googlemock/gtest/CMakeFiles/gtest.dir/build.make gtest/googlemock/gtest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
+src/gripper.o: src/gripper.cpp.o
+
+.PHONY : src/gripper.o
+
+# target to build an object file
+src/gripper.cpp.o:
+	$(MAKE) -f CMakeFiles/41014project2022_fetch.dir/build.make CMakeFiles/41014project2022_fetch.dir/src/gripper.cpp.o
+.PHONY : src/gripper.cpp.o
+
+src/gripper.i: src/gripper.cpp.i
+
+.PHONY : src/gripper.i
+
+# target to preprocess a source file
+src/gripper.cpp.i:
+	$(MAKE) -f CMakeFiles/41014project2022_fetch.dir/build.make CMakeFiles/41014project2022_fetch.dir/src/gripper.cpp.i
+.PHONY : src/gripper.cpp.i
+
+src/gripper.s: src/gripper.cpp.s
+
+.PHONY : src/gripper.s
+
+# target to generate assembly for a file
+src/gripper.cpp.s:
+	$(MAKE) -f CMakeFiles/41014project2022_fetch.dir/build.make CMakeFiles/41014project2022_fetch.dir/src/gripper.cpp.s
+.PHONY : src/gripper.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -1792,6 +1832,33 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/Sensors.dir/build.make CMakeFiles/Sensors.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/sensorprocessing.o: src/sensorprocessing.cpp.o
+
+.PHONY : src/sensorprocessing.o
+
+# target to build an object file
+src/sensorprocessing.cpp.o:
+	$(MAKE) -f CMakeFiles/41014project2022_fetch.dir/build.make CMakeFiles/41014project2022_fetch.dir/src/sensorprocessing.cpp.o
+.PHONY : src/sensorprocessing.cpp.o
+
+src/sensorprocessing.i: src/sensorprocessing.cpp.i
+
+.PHONY : src/sensorprocessing.i
+
+# target to preprocess a source file
+src/sensorprocessing.cpp.i:
+	$(MAKE) -f CMakeFiles/41014project2022_fetch.dir/build.make CMakeFiles/41014project2022_fetch.dir/src/sensorprocessing.cpp.i
+.PHONY : src/sensorprocessing.cpp.i
+
+src/sensorprocessing.s: src/sensorprocessing.cpp.s
+
+.PHONY : src/sensorprocessing.s
+
+# target to generate assembly for a file
+src/sensorprocessing.cpp.s:
+	$(MAKE) -f CMakeFiles/41014project2022_fetch.dir/build.make CMakeFiles/41014project2022_fetch.dir/src/sensorprocessing.cpp.s
+.PHONY : src/sensorprocessing.cpp.s
 
 # Help Target
 help:
@@ -1830,6 +1897,7 @@ help:
 	@echo "... topic_tools_generate_messages_lisp"
 	@echo "... topic_tools_generate_messages_eus"
 	@echo "... topic_tools_generate_messages_cpp"
+	@echo "... 41014project2022_fetch"
 	@echo "... std_srvs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_py"
 	@echo "... geometry_msgs_generate_messages_lisp"
@@ -1929,9 +1997,15 @@ help:
 	@echo "... gmock"
 	@echo "... gtest_main"
 	@echo "... gtest"
+	@echo "... src/gripper.o"
+	@echo "... src/gripper.i"
+	@echo "... src/gripper.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/sensorprocessing.o"
+	@echo "... src/sensorprocessing.i"
+	@echo "... src/sensorprocessing.s"
 .PHONY : help
 
 

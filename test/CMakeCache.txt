@@ -20,6 +20,9 @@
 //Value Computed by CMake
 41014project2022_SOURCE_DIR:STATIC=/home/student/catkin_ws/src/Sensors
 
+//Dependencies for target
+41014project2022_fetch_LIB_DEPENDS:STATIC=
+
 //Builds the googlemock subproject
 BUILD_GMOCK:BOOL=ON
 
